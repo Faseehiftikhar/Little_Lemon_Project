@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav-active {
+  color: #F4CE14 !important;
+}
+
+.hover:hover {
+  background-color: #F4CE14;
+  border-radius: 15px;
+}
+
+.logo-height {
+  width: 20rem
+}
+
+.nav-font {
+  font-size: x-large;
+}
+
+.lemon-primary-dark {
+  background-color: #f1f1f1;
+}
+
+.lemon-primary-lemon {
+  color: #F4CE14;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.pd {
+  padding: 1rem;
+}
+
+.pdr-65p {
+  padding-right: 25%;
+}
+
+.footer-logo {
+  width: 7.5rem;
+}
+
+.reserve-btn {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: #F4CE14;
+}
+
+.reserve-btn:hover {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: #f1f1f1;
+}
+
+.txt-dec-none {
+  text-decoration: none;
+  color: #495e57;
+}
+
+.footer-block {
+  display: block;
+  font-size: 1.2rem;
+  color: rgb(54, 54, 52);
+  text-decoration: none;
+}
+
+.row {
+  display: flex;
+}
+
+.col-full,
+.col-half,
+.col-3rd {
+  flex-basis: 100%;
+}
+
+.block {
+  display: block;
+  color: rgb(25, 26, 25);
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.foot-center {
+  text-align: center;
+}
+
+.special-body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#hero {
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./images/specials/background.jpg") no-repeat center / cover;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+@media only screen and (min-width: 340px) {
+  .col-half {
+      flex-basis: 50%
+    }
+}
+@media only screen and (min-width: 670px) {
+  .col-3rd {
+      flex-basis: 33%
+    }
+  .pdr-65p {
+    padding-right: 55%;
+  }
+}
